@@ -77,7 +77,7 @@ def main() -> None:
     
 
 
-    telegram_token = os.getenv("TELEGRAM_TOKEN")
+    telegram_token = os.getenv("TELEGRAM_MTG_TOKEN")
     # Create the Application and pass it your bot's token.
     application = Application.builder().token(telegram_token).build()
     # on different commands - answer in Telegram
